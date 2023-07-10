@@ -12,3 +12,7 @@ let emailInput = document.getElementById('email-form');
 emailInput.placeholder = 'Nuevo  correo';
 
 
+//alamceno el imput del nombre dentro de una variable
+let nombreInput = document.getElementById('text-form');
+//modifico el placeholder
+nombreInput.placeholder = 'Nuevo texto para el nombre';
