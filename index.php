@@ -7,11 +7,15 @@
 </head>
 <body>
     <h1>MANIPULACIÓN DEL DOM EN JS</h1>
+
+
     <form action="" id="form">
         <input type="email" id="email-form" placeholder="Ingrese un correo">
         <input type="text" id="text-form" placeholder="Ingrese su nombre">
         <button type="sumbit" id="button-form" class="btn btn-primary" href="#">ENVIAR</button>
     </form>
+    
+
    
     <script src="app.js"></script>
 </body>
