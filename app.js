@@ -6,34 +6,34 @@ bodyElement.style.backgroundImage = "url('tableback.jpg')";
 bodyElement.style.backgroundSize = "cover";
 
 //selecionamos el h1 con queryselector
-document.querySelector('h1')
+document.querySelector("h1");
 //lo alamancenams en ina variable llamada titulo
-let titulo = document.querySelector('h1')
-console.log(titulo)
+let titulo = document.querySelector("h1");
+console.log(titulo);
 //modificamos el titulo
-titulo.innerText = 'SEGUNDA TAREA DE JS'
+titulo.innerText = "SEGUNDA TAREA DE JS";
 //agregamos un fondo al titulo
-titulo.style.backgroundColor = 'blue';
+titulo.style.backgroundColor = "blue";
 
 //aqui almacenamos el elementos input id = email-form, dentro de esta variable
-let emailInput = document.getElementById('email-form');
+let emailInput = document.getElementById("email-form");
 //aqui modificamoes el placeholder del input
-emailInput.placeholder = 'Nuevo  correo';
-
+emailInput.placeholder = "Nuevo  correo";
 
 //alamceno el imput del nombre dentro de una variable
-let nombreInput = document.getElementById('text-form');
+let nombreInput = document.getElementById("text-form");
 //modifico el placeholder
-nombreInput.placeholder = 'Nuevo nombre';
+nombreInput.placeholder = "Nuevo nombre";
 
-//alamceno el boton dentro de la bariable 
-let button = document.querySelector('#button-form');
+//alamceno el boton dentro de la bariable
+let button = document.querySelector("#button-form");
 //aqui modifico el el texto
-button.textContent = 'ENVIAR AHORA';
+button.textContent = "ENVIAR AHORA";
 
 //agregamos un nuevo elemento hijo al body dentro de esta variable
-let Parrafo = document.createElement('p');
+let Parrafo = document.createElement("p");
 //aqui con el textcontect agregamos lo que queremos agregar dentro del p
-Parrafo.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo illo sed nemo autem facere! Autem molestiae cumque magnam odio voluptatum necessitatibus eos eligendi tempora ducimus. Necessitatibus consequuntur blanditiis assumenda eaque.';
+Parrafo.textContent =
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo illo sed nemo autem facere! Autem molestiae cumque magnam odio voluptatum necessitatibus eos eligendi tempora ducimus. Necessitatibus consequuntur blanditiis assumenda eaque.";
 //para añadir el párrafo como hijo del elemento
 bodyElement.appendChild(Parrafo);
