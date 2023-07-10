@@ -1,11 +1,14 @@
-const formulario = document.getElementById('form');
+//selecionamos el h1 con queryselector
+document.querySelector('h1')
+//lo alamancenams en ina variable llamada titulo
+let titulo = document.querySelector('h1')
+console.log(titulo)
+//modificamos el titulo
+titulo.innerText = 'SEGUNDA TAREA DE JS'
 
-formulario.addEventListener('submit', function(e) {
-    e.preventDefault();
-    let email = document.getElementById('email-form');
-    console.log(email);  
-    let nombre = document.getElementById('text-form');
-    console.log(nombre);
-});
+//aqui almacenamos el elementos input id = email-form, dentro de esta variable
+let emailInput = document.getElementById('email-form');
+//aqui modificamoes el placeholder del input
+emailInput.placeholder = 'Nuevo  correo';
 
 
