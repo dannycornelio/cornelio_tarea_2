@@ -1,3 +1,9 @@
+// Seleccionar el elemento body dentro de esta variable
+let bodyElement = document.body;
+
+// Asignar el fondo de imagen al body
+bodyElement.style.backgroundImage = "url('tableback.jpg')";
+bodyElement.style.backgroundSize = "cover";
 
 //selecionamos el h1 con queryselector
 document.querySelector('h1')
