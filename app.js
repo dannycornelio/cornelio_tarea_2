@@ -30,3 +30,10 @@ nombreInput.placeholder = 'Nuevo nombre';
 let button = document.querySelector('#button-form');
 //aqui modifico el el texto
 button.textContent = 'ENVIAR AHORA';
+
+//agregamos un nuevo elemento hijo al body dentro de esta variable
+let Parrafo = document.createElement('p');
+//aqui con el textcontect agregamos lo que queremos agregar dentro del p
+Parrafo.textContent = 'Este es un nuevo párrafo hijo del body';
+//para añadir el párrafo como hijo del elemento
+bodyElement.appendChild(Parrafo);
