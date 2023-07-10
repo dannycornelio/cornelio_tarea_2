@@ -34,6 +34,6 @@ button.textContent = 'ENVIAR AHORA';
 //agregamos un nuevo elemento hijo al body dentro de esta variable
 let Parrafo = document.createElement('p');
 //aqui con el textcontect agregamos lo que queremos agregar dentro del p
-Parrafo.textContent = 'Este es un nuevo párrafo hijo del body';
+Parrafo.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo illo sed nemo autem facere! Autem molestiae cumque magnam odio voluptatum necessitatibus eos eligendi tempora ducimus. Necessitatibus consequuntur blanditiis assumenda eaque.';
 //para añadir el párrafo como hijo del elemento
 bodyElement.appendChild(Parrafo);
